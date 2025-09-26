@@ -50,7 +50,7 @@ public class Person {
 
     public boolean isTeen() {
         boolean sonuc = false;
-        if (age < 19 && age > 13) sonuc = true;
+        if (this.age <= 19 && this.age >= 13) sonuc = true;
         return sonuc;
     }
 }
